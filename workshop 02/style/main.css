@@ -1,0 +1,44 @@
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: rgb(42, 172, 99);
+    margin-left: 200 px ;
+    font-weight: bold;
+}
+
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 154, 154);
+}
+
+
+/* .q and a {
+    width: 300;
+    margin: center;
+}
+
+.question {
+    font-size: 300;
+    margin: center;
+
+}
+
+.answer {
+    font-size: 300;
+    margin: center;
+    
+}
+ */
+
