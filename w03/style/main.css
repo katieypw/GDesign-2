@@ -1,0 +1,35 @@
+.container {
+    background: rgba(red, green, blue, alpha);
+    width: 1000px;
+    margin: auto
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10%;
+    
+}
+
+.header {
+    min-height:400px;
+    background:red;
+}
+
+.square {
+    background:blue;
+    width:300px;
+    height:300px;
+    border:1px solid red;
+}
+
+.collection{
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.collection-sidebar {
+
+}
+
+.collection-gallery {
+
+}

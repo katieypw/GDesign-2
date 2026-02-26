@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+}
+
+#parallelogram {
+      width: 150px;
+      height: 100px;
+      transform: skew(20deg);
+      background: green;
+
+    }
+
+#rectangle {
+  width: 30px;
+  height: 200px;
+  background: green;
+}
