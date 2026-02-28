@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    height: 10vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px, 50px;
+    font-weight: bold;
+    font-size: 900px;
+    text-align: center;
+    margin-top: -1200px;
+    color: rgb(255, 113, 130);
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    margin-top: -1050px;
+    margin-left: 750px;
+    color: rgb(0, 0, 0)
+}
+
+
+p {
+    color: rgb(0, 97, 26);
+    margin-left: 200 px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -1400px;
+    color: rgb(0, 25, 151);
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -500px;
+    color: rgb(126, 147, 255);
+}
+
+
+
+h6 {
+   color: rgb(0, 97, 26);
+    margin-left: 200 px;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 50px;
+
+}
