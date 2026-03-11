@@ -6,12 +6,18 @@ $("#preamble-btn-1").click(function() {
     });
 });
 
-{
+
 
 
     $("#preamble-btn-2").click(function() {
         $("#preamble-btn-1").css({
-            "transform": "rotate(45deg)",
+            "transform": "rotate(360deg)",
         
         });
     });
+
+$("#preamble-btn-2").click(function(){
+
+    $("#preamble-btn-1").toggleClass("rotate")
+
+})
