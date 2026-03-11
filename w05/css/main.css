@@ -131,16 +131,21 @@ footer {
 
 }
 
+#menu.active {
+    display: block;
+}
+
 .menu-content {
     max-width:600px;
     margin:auto;
     padding:6em;
 }
 
-.album-thumbs img {
+.album-thumbs {
     display: grid;
-    grid-template-columns: repeat (6,1fr);
-    padding: 2rem;
+    grid-template-columns: repeat (6, 1fr);
+    padding: 2em;
+    column-gap: 2em;
 
 }
 

@@ -21,3 +21,7 @@ $("#preamble-btn-2").click(function(){
     $("#preamble-btn-1").toggleClass("rotate")
 
 })
+
+$(".header-left").click(function(){
+    $("menu").toggleClass("active")
+})
