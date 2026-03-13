@@ -1,0 +1,82 @@
+@import "webfonts.css";
+
+/* Main stylesheet for the demo project */
+
+@font-face {
+    font-family: 'Standard';
+    src: url('font/webfonts/standard-book-webfont.eot');
+    src: url('font/webfonts/standard-book-webfont.eot?#iefix') format('embedded-opentype'),
+        url('font/webfonts/standard-book-webfont.woff2') format('woff2'),
+        url('font/webfonts/standard-book-webfont.woff') format('woff'),
+        url('font/webfonts/standard-book-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Standard';
+    src: url('font/webfonts/standard-book-italic-webfont.eot');
+    src: url('font/webfonts/standard-book-italic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('font/webfonts/standard-book-italic-webfont.woff2') format('woff2'),
+        url('font/webfonts/standard-book-italic-webfont.woff') format('woff'),
+        url('font/webfonts/standard-book-italic-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Standard';
+    src: url('font/webfonts/standard-bold-webfont.eot');
+    src: url('font/webfonts/standard-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('font/webfonts/standard-bold-webfont.woff2') format('woff2'),
+        url('font/webfonts/standard-bold-webfont.woff') format('woff'),
+        url('font/webfonts/standard-bold-webfont.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Standard';
+    src: url('font/webfonts/standard-bold-italic-webfont.eot');
+    src: url('font/webfonts/standard-bold-italic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('font/webfonts/standard-bold-italic-webfont.woff2') format('woff2'),
+        url('font/webfonts/standard-bold-italic-webfont.woff') format('woff'),
+        url('font/webfonts/standard-bold-italic-webfont.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+body {
+    background-color: #f6abab;
+    font-family: 'Standard', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+.site-header {
+    background-color: #222;
+    color: #fff;
+    padding: 18px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.site-header h1 {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+main {
+    max-width: 1300px;
+    margin: 10rem auto;
+    padding: 20px;
+}
+
